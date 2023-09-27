@@ -51,3 +51,69 @@ h1{
     padding: 18%;
     text-shadow: 10px 10px 10px black;
 }
+manin{
+    margin: 0px;
+}
+#apresentacao{
+    width: 90%;
+    display: block;
+    height: 800px;
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 50px auto;
+}
+.pizza{
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+}
+.pizza img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.pizza h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+.pizza p{
+    text-align: center;
+    padding: 5%;
+    margin-top: 1%;
+    color: black;
+    font-size: 90%;
+}
+.pizza a{
+    display: block;
+    text-align: center;
+    background-color: rgb(104, 199, 8);
+    color: azure;
+    padding: 3%;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}
+.pizza a:hover{
+    background-color: darkgreen;
+}
+.direita{
+    float: right;
+}
+.centro{
+    margin-left: 5%;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: coral;
+}
+footer p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    color: aliceblue;
+}
